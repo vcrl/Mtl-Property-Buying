@@ -47,7 +47,7 @@ body {
 }
 
 .bg-img video::-webkit-media-controls {
-  display: none !important;
+  opacity: 0;
 }
 
 .nav-header {
