@@ -295,6 +295,7 @@ article {
   display: block;
   font-size: clamp(12px, 1vw, 16px);
   border: none;
+  border-radius: 0px;
 }
 
 @media (max-width: 800px) {
