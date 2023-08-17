@@ -46,9 +46,8 @@ body {
   opacity: 0.5;
 }
 
-*::-webkit-media-controls-start-playback-button {
+.bg-img video::-webkit-media-controls-start-playback-button {
   display: none !important;
-  -webkit-appearance: none;
 }
 
 .nav-header {
