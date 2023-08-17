@@ -46,6 +46,10 @@ body {
   opacity: 0.5;
 }
 
+.bg -img video::-webkit-media-controls {
+  display: none !important;
+}
+
 .nav-header {
   width: 100%;
   display: flex;
