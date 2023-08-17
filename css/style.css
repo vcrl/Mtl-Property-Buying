@@ -194,6 +194,7 @@ article {
 @media (max-width: 800px) {
   article {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
 
