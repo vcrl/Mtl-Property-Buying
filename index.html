@@ -28,18 +28,13 @@
           muted="muted"
           loop="loop"
           preload="auto"
-          playsInline
+          playsinline
         >
           <source src="img/video-header-compress.mp4" type="video/mp4" />
         </video>
         <!-- START NAV -->
         <header class="nav-header">
           <nav class="navigation">
-            <div class="navigation-links">
-              <a class="nav-item" href="#">Pourquoi nous choisir</a>
-              <a class="nav-item" href="#">Nos garanties</a>
-              <a class="mobile nav-item" href="#">Logo</a>
-            </div>
             <div class="navigation-links">
               <a class="nav-item" href="#">
                 <img
@@ -49,8 +44,12 @@
                   height="auto"
                 />
               </a>
+              <a class="mobile nav-item" href="#">Logo</a>
             </div>
             <div class="navigation-links">
+              <a class="nav-item" href="#">Pourquoi nous choisir</a>
+              <a class="nav-item" href="#">Nos garanties</a>
+              <a class="nav-item" href="#">Notre avantage</a>
               <a class="nav-item" href="#">
                 <i class="fa fa-phone"></i>
                 +1(514)-447-8087
@@ -74,36 +73,58 @@
               </h1>
               <p>
                 Vous désirez vendre votre propriété rapidement ? <br />Notre
-                équipe vous achète votre maison en moins<br />d’une semaine,
-                sans agent, sans commission.
+                équipe vous achète votre maison en moins d’une semaine, sans
+                agent, sans commission.
               </p>
-              <p class="dots">&mdash;</p>
+              <a href="#" class="main-action"> VENDRE MA MAISON </a>
             </header>
 
             <div class="form">
               <div class="form-1">
-                <h1 class="form-title">
-                  Démarrez votre évaluation gratuite
-                  <span class="form-emphasis">aujourd'hui</span>
-                </h1>
-                <p>
-                  Remplissez le formulaire ci-dessous pour recevoir une offre
-                  gratuitement sans obligation et sans engagement.
-                </p>
+                <img src="img/icons/form.png" alt="Real estate icon" />
+                <div>
+                  <p>Prêt à vendre votre maison rapidement ?</p>
+                  <h1 class="form-title">OBTENEZ UNE OFFRE INSTANTANNÉE</h1>
+                </div>
               </div>
               <div class="form-2">
                 <form>
-                  <input type="text" placeholder="ADRESSE DE VOTRE LOGEMENT" />
+                  <input type="text" placeholder="Prénom, Nom" />
                   <div class="address-2">
-                    <input type="text" placeholder="CODE POSTAL" />
-                    <input type="text" placeholder="VILLE" />
+                    <input type="text" placeholder="Numéro de téléphone" />
+                    <input type="text" placeholder="Courriel" />
                   </div>
-                  <input type="text" placeholder="NOM COMPLET" />
-                  <input type="text" placeholder="COURRIEL" />
+                  <div class="address-2">
+                    <select id="type">
+                      <option value="0" selected>Type de propriété</option>
+                      <option value="0">&dash;</option>
+                      <option value="1">Condo</option>
+                      <option value="2">Maison</option>
+                      <option value="3">2 à 5 logements</option>
+                      <option value="3">Autre</option>
+                    </select>
+                    <select id="etat">
+                      <option value="0" selected>État de la propriété</option>
+                      <option value="0">&dash;</option>
+                      <option value="1">Clé en main</option>
+                      <option value="2">Travaux mineurs</option>
+                      <option value="3">Travaux majeurs</option>
+                    </select>
+                  </div>
+                  <input type="text" placeholder="Adresse de la propriété" />
+                  <div class="address-2">
+                    <input type="text" placeholder="Code postal" />
+                    <input type="text" placeholder="Ville" />
+                  </div>
+                  <div class="address-2">
+                    <input type="text" placeholder="Évaluation municipale" />
+                    <input type="text" placeholder="Prix souhaité" />
+                  </div>
+                  <input
+                    type="submit"
+                    value="RECEVOIR UNE OFFRE INSTANTANNÉE"
+                  />
                 </form>
-              </div>
-              <div class="form-3">
-                <input type="submit" value="RECEVOIR MON ÉVALUATION" />
               </div>
             </div>
           </article>
@@ -132,8 +153,8 @@
             ante ipsum primis in faucibus orci luctus et ultrices posuere
             cubilia curae.
           </p>
-          <a class="call-to-action" href="#">Démarrer l'évaluation gratuite</a>
-          <p class="dots">• • •</p>
+          <a class="call-to-action" href="#">Obtenir une offre instantannée</a>
+          <p class="dots"></p>
         </header>
         <article class="cards">
           <section class="row">
@@ -201,7 +222,7 @@
             possibles et vous offrir une opportunité de vendre votre maison
             rapidement avec le moins de démarches possible.
           </p>
-          <p class="dots">•••</p>
+          <p class="dots"></p>
         </header>
         <article class="cards">
           <div class="card">
@@ -243,6 +264,163 @@
           </div>
         </article>
       </div>
+    </section>
+    <section class="content compare">
+      <div class="inner-content">
+        <header>
+          <h1 class="bg-title">Notre avantage</h1>
+          <p class="title-text">
+            Parceque nous voulons faire affaire dans les meilleures conditions
+            possibles et vous offrir une opportunité de vendre votre maison
+            rapidement avec le moins de démarches possible.
+          </p>
+          <p class="dots"></p>
+        </header>
+        <article class="cards">
+          <div class="card courtier">
+            <div class="card-img"><img src="img/icons/error.png" /></div>
+            <div>
+              <h1 class="card-title">
+                En passant par un <br /><span class="courtier">Courtier</span>
+              </h1>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+              <div class="checktext">
+                <img class="cross" src="img/icons/cross.png" />
+                <p class="card-text">Recevez une offre INSTANTANNÉE</p>
+              </div>
+              <div class="checktext">
+                <img class="cross" src="img/icons/cross.png" />
+                <p class="card-text">
+                  Prise en charge des travaux de rénovation
+                </p>
+              </div>
+              <div class="checktext">
+                <img class="cross" src="img/icons/cross.png" />
+                <p class="card-text">Démarches faciles et rapides</p>
+              </div>
+              <div class="checktext">
+                <img class="cross" src="img/icons/cross.png" />
+                <p class="card-text">
+                  Aucune attente, on rachète votre maison rapidement
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- US -->
+          <div class="card us">
+            <div class="card-img"><img src="img/icons/check.png" /></div>
+            <div>
+              <h1 class="card-title">
+                En passant par <br /><span>VenteDirect</span>
+              </h1>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">Recevez une offre INSTANTANNÉE</p>
+              </div>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">
+                  Prise en charge des travaux de rénovation
+                </p>
+              </div>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">Démarches faciles et rapides</p>
+              </div>
+              <div class="checktext">
+                <img src="img/icons/check.png" />
+                <p class="card-text check">
+                  Aucune attente, on rachète votre maison rapidement
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- LAST SECTION -->
+    <section class="content third last">
+      <div class="inner-content third last">
+        <header>
+          <h1 class="bg-title">FAQ - Questions fréquentes</h1>
+          <p class="title-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            vitae felis lacus.
+          </p>
+          <p class="title-text">
+            Aliquam laoreet metus non accumsan rutrum. Morbi feugiat molestie
+            euismod. Donec elementum mi eget nibh congue, tincidunt vulputate
+            urna sagittis. Nunc dictum lectus eget tristique malesuada.
+          </p>
+          <p class="title-text">
+            Praesent ut viverra neque, nec vulputate nulla. Ut orci est,
+            eleifend sed consequat quis, condimentum auctor nisi. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia curae.
+          </p>
+          <a class="call-to-action" href="#">Démarrer l'évaluation gratuite</a>
+          <p class="dots"></p>
+        </header>
+        <article class="cards">
+          <section class="row">
+            <div class="card">
+              <div class="card-texts">
+                <h1 class="card-title">01. Lorem Ipsum</h1>
+                <p class="card-text">
+                  Nous savons que vendre sa maison peut-être long et
+                  fastidieux.<br />
+                  C'est pour cela que nous proposons des démarches simples et
+                  rapides de la visite à la signature!
+                </p>
+                <p class="card-more">En savoir plus →</p>
+              </div>
+            </div>
+          </section>
+          <section class="row">
+            <div class="card">
+              <div class="card-texts">
+                <h1 class="card-title">02. Lorem Ipsum</h1>
+                <p class="card-text">
+                  Nous savons que vendre sa maison peut-être long et
+                  fastidieux.<br />
+                  C'est pour cela que nous proposons des démarches simples et
+                  rapides de la visite à la signature!
+                </p>
+                <p class="card-more">En savoir plus →</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-texts">
+                <h1 class="card-title">02. Lorem Ipsum</h1>
+                <p class="card-text">
+                  Nous savons que vendre sa maison peut-être long et
+                  fastidieux.<br />
+                  C'est pour cela que nous proposons des démarches simples et
+                  rapides de la visite à la signature!
+                </p>
+                <p class="card-more">En savoir plus →</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
+    <!--  -->
+    <section class="bottom-action">
+      <article>
+        <p>Work in progress</p>
+      </article>
     </section>
   </body>
 </html>

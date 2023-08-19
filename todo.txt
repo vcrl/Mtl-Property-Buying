@@ -1,0 +1,27 @@
+// TODO
+
+* Pop-up avec form dès l'arrivée sur le site
+    -> Estimation instant avec algorithme
+    -> If intéressé par l'offre, call-to-action contact
+    -> Contact direct = numéro de tél sur le pop up
+    Mobile :
+        -> Pop up take full screen
+        -> Close cross top right
+
+* form
+    Prénom
+    NOM
+    COURRIEL
+    tél
+    Type de propriété (fiche déroulante) : Condo, Maison, 2 à 5 logements
+    ADRESSE
+    VILLE
+    Code POSTAL
+    Evaluation municipale de la propriété
+    État général de la propriété : Clé en main, Travaux Mineur, Travaux Majeurs
+    Autre commentaire
+
+* Layout comparatif broker vs our website
+* FAQ page with grid Layout 
+* Keywords :
+ - Offre instantannée
